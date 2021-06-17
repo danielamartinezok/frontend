@@ -1,0 +1,100 @@
+/* ============================== */
+
+/* Body */
+body {
+    font-family:'Times New Roman';
+    width: 100%;
+    box-sizing: content-box;
+    margin: 0;
+}
+
+
+header {
+    /* background-image: url('../img/foto-encabezado.jpg'); */
+    background-color: #f1f1f1;
+    height: 265px;
+    text-align: center;
+    /* line-height: 10px; */
+    /* padding: auto; */
+}
+
+header img {
+    width: 200px;
+    border-radius: 50%;
+    border-inline-start-color: rgb(82, 161, 240);
+    padding: 20px;
+}
+
+
+
+/* ============================== */
+/* H1 */
+h1 {
+    background-color:#fc9fca70;
+    color: #0d0f0f9a;
+    font-family: 'Times New Roman';
+    font-size: 35 px;
+    font-style: 700;
+    font-weight: bold;
+    font-weight: 1440px;
+    line-height: 60px;
+    vertical-align: top;
+    text-transform: uppercase;
+    letter-spacing:0.2cm;
+    font-feature-settings: 'cpsp' on;
+    height: 60px;
+}
+
+/* ============================== */
+/* Main */
+
+/* Características generales del main */
+section {
+    font-family: 'Times New Roman';
+    font-size: 15 px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    margin:11%;
+}
+
+/* Subtítulos */
+.datos-personales, .formacion-academica, .experiencia-laboral, .idiomas {
+    background-color:#fc9fca70;
+    color: #4c55589a;
+    font-family: 'Times New Roman';
+    font-size: 20 px;
+    font-style: normal;
+    font-weight: bold;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing:0.1cm;
+    text-transform: uppercase;  
+    width: 1041px;
+    height: 30px;
+    left: 225px;
+    right: 174px;
+}
+
+
+/* Datos personales */
+.negrita {
+    font-weight: bold;
+}
+.negrita-y-cursiva {
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* ============================== */
+/* Footer */
+footer {
+    background-color: lemonchiffon;
+    position:sticky;
+    font-size: 20px;
+    text-align: center;
+    height: 23px;
+    letter-spacing:0.12cm;
+    bottom:0;
+    width: 100%;
+}

@@ -1,0 +1,116 @@
+/* ============================== */
+
+head {
+    width: 1440px;
+    height: 1024px;
+}
+
+/* ============================== */
+/* Body */
+body {
+    font-family:'Times New Roman'
+}
+
+/* ============================== */
+/* Header */
+header {
+    background-color: #E5E5E5;
+    width: 1440px;
+    height: 189px;
+    left: 0px;
+    top: 0px;
+}
+
+/* ============================== */
+/* H1 */
+h1 {
+    background-color:#C4C4C4;
+    color: #005677;
+    font-family: 'Times New Roman';
+    font-size: 35 px;
+    font-style: 700;
+    font-weight: bold;
+    font-weight: 1440px;
+    line-height: 60px;
+    vertical-align: top;
+    text-transform: uppercase;
+    letter-spacing:0.2cm;
+    font-feature-settings: 'cpsp' on;
+    height: 60px;
+}
+
+/* ============================== */
+/* Main */
+
+/* 
+.volver {
+    background-position: right top;
+}
+ */
+ 
+/* Características generales del main */
+section {
+    font-family: 'Times New Roman';
+    font-size: 15 px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    margin:11%;
+}
+
+/* Subtítulos */
+.datos-personales, .formacion-academica, .experiencia-laboral {
+    background-color:#C4C4C4;
+    color: #005677;
+    font-family: 'Times New Roman';
+    font-size: 20 px;
+    font-style: normal;
+    font-weight: bold;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing:0.1cm;
+    text-transform: uppercase;  
+    width: 1041px;
+    height: 30px;
+    left: 225px;
+    right: 174px;
+}
+
+
+/* Datos personales */
+.negrita {
+    font-weight: bold;
+}
+.negrita-y-cursiva {
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* ============================== */
+/* Footer */
+footer {
+    background-color:#005677;
+    color:#FFFFFF;
+    font-family: 'Times New Roman';
+    font-size: 20 px;
+    font-style: normal;
+    font-weight: bold;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing:0.1cm;
+    text-transform: uppercase;
+    width: 1440px;
+    height: 37px;
+    left: 0px;
+    top: 987px;
+}
+
+/* ============================== */
+/* icono linkedin e IG */
+.logo-linkedin, .logo-instagram {
+    width: 20px;
+    height: 20px;
+    top: 996px;
+    left: 818px;
+    background-position: left top;
+}
