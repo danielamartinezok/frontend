@@ -5,20 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PetShop</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
+
 <body>
-    <header>
+
+<header> 
 <!-- Barra superior -->
-<p>Grandes ofertas en comederos</p>
-<p>Español</p>
-<img src="img/down.png">
-<p>ARG$</p>
-<img src="img/down (1).png">
-<hr>
+<section class="barra-superior">
+    <p>Grandes ofertas en comederos</p>
+    <p>Español</p>
+    <p>ARG$</p>
+</section>
+
 <!-- Barra de menú principal -->
-<img src="img/Logo.png" alt="Acá está el logo de la empresa">
-<nav>
+<nav class="barra-de-navegacion">
+<img class="imagen-barra-de-nav" src="img/Logo.png" alt="Acá está el logo de la empresa">
     <ul type="none">
         <li><img src="img/pawprint 1 BANNER.png">Categorías</li>
         <li><img src="img/pawprint 2.png">Pets</li>
@@ -26,66 +30,68 @@
         <li><img src="img/pawprint 4.png">Contactanos</li>
     </ul>
 </nav>
-<hr>
-    </header>
+</header>
 
-    <main>
+<main>
 <!-- Sección banner -->
-<img src="img/bowl-and-pet-daities-on-green-background 1.png" alt="Foto del producto">
-<p>¡Es un placer tenerte aquí!</p>
-<p>¡Comederos en descuento!</p>
-<p>COMEDEROS</p>
+<section class="banner">
+    <h2>¡Es un placer tenerte aquí!</h2>
+    <p>¡Comederos en descuento!</p>
+    <p class="comederos">COMEDEROS</p>
+</section>
+
 
 <!-- Sección productos -->
-<img src="img/pawprint 1.png" alt="Foto de la patita">
-<h2>Productos Destacados</h2>
+<i class="fas fa-paw"></i>
+<h1>Productos Destacados</h1>
 <span>Comederos - </span><span>Accesorios - </span><span>Comida</span>
-<br>
-<br>
-<img src="img/churrasquito.png" alt="Foto de tres churrascos">
-<p>Juguete Churrasquito</p>
-<p>$150</p>
 
-<img src="img/comedero.png" alt="Foto de un comedero para perro">
-<p>Comedero para perro</p>
-<p>$250</p>
+<section>
+    <img src="img/churrasquito.png" alt="Foto de tres churrascos">
+    <p class="producto">Juguete Churrasquito</p>
+    <p class="precio">$150</p>
 
-<img src="img/Huesito.png" alt="Foto de un huesito de juguete para perro">
-<p>Juguete Huesito</p>
-<p>$650</p>
+    <img src="img/comedero.png" alt="Foto de un comedero para perro">
+    <p>Comedero para perro</p>
+    <p class="precio">$250</p>
 
-<h2>Contáctanos</h2>
+    <img src="img/Huesito.png" alt="Foto de un huesito de juguete para perro">
+    <p>Juguete Huesito</p>
+    <p class="precio">$650</p>
+</section>
+
+<h3>Contáctanos</h3>
 <p>Nombre y Apellido</p>
 <p>Ingresá tu correo electrónico</p>
 <p>Teléfono</p>
 
-<span>Resetear </span><span> Enviar</span>
-<br>
-<br>
+<span class="resetear">Resetear </span><span class="enviar"> Enviar</span>
 <img src="img/Group.png">
-<p>Suscríbete para más novedades</p>
-<p>Ingresa tu correo electrónico</p>
-<p>Suscríbeme</p>
-<br>
-<img src="img/Localidad.png">
-<p>Localidad</p>
-<p>Calle - provincia</p>
-<br>
-<img src="img/Teléfono.png">
-<p>Teléfono</p>
-<p>Número de teléfono</p>
-<img src="img/Logo para abajo.png">
-<br>
-<img src="img/Correo electrónico.png">
-<p>Correo Electrónico</p>
-<p>Dirección de correo</p>
-<hr>
-    </main>
+
+<section class="suscripcion">
+    <p>Suscríbete para más novedades</p>
+    <p>Ingresa tu correo electrónico</p>
+    <p>Suscríbeme</p>
+</section>
+</main>
 
 <!-- Contenido para el pie de página -->
-    <footer>
-<p>Todos los derechos reservados Front End</p>
-    </footer>
+<footer>
+<section>
+    <img src="img/Localidad.png">
+    <p>Localidad</p>
+    <p>Calle - provincia</p>
+    <p>Teléfono</p>
+    <img src="img/Teléfono.png">
+    <p>Número de teléfono</p>
+    <img src="img/Correo electrónico.png">
+    <p>Correo Electrónico</p>
+    <p>Dirección de correo</p>
+    <img src="img/Logo para abajo.png">
+</section>
+    
+    <p class="derechos">Todos los derechos reservados Front End</p>
+</footer>
 
 </body>
 </html>

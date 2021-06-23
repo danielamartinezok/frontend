@@ -1,0 +1,96 @@
+body {
+    height: 1807px;
+    width: 1024px;
+}
+
+.barra-superior {
+    background-color: #222222;
+    color:#F3F3F3;
+    height: 90px;
+}
+
+.barra-de-navegacion {
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    height: 115px;
+}
+
+main {
+    height: 2000px;
+}
+
+.banner {
+    background-image: url(../img/bowl-and-pet-daities-on-green-background.png);
+    height:409px;
+    text-align: center;
+}
+
+h2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400px;
+    font-size: 30px;
+    line-height: 35.16px;
+    font-weight: normal;   
+}
+
+.comederos {
+    background-image:url(../img/rectangulo-comedero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+/* ¿Cómo hago para agrandar el tamaño del ícono? */
+.fas fa-paw {
+    width: 67px;
+    height: 71px;
+}
+
+h1 {
+    font-weight: 700px;
+    font-size: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    line-height: 46.88px;
+}
+
+section .producto {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500px;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 17.58px;
+    color:#3C2313;
+}
+
+section .precio {
+    color:#F0A83E;
+}
+
+.resetear {
+    background-image: url(../img/resetear.png);
+    background-repeat: no-repeat;
+    color:white;
+}
+
+.enviar{
+    background-image: url(../img/enviar.png);
+    background-repeat: no-repeat;
+    color:white;
+}
+
+
+.suscripcion {
+    color:#FFFFFF;
+    background-color: #F0A83E;
+
+}
+
+footer {
+    background-color: #3C2313;
+    color: #FFFFFF;
+}
+
+.derechos {
+    background-color:#222222;
+}

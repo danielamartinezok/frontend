@@ -1,0 +1,141 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* width: 1024px; */
+    height: 1024px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400px;
+}
+
+/* header */
+
+header {
+    color:#000000;
+}
+
+.descuentos {
+    background-color: #1CD1B0;
+    padding: 10px 903px 10px 10px;
+    font-size: 15px;
+    line-height: 17.58px;
+}
+
+.heroes {
+    background-color: #00669F;
+    padding: 28px 868px 26px 28px;
+    font-size: 40px;
+    line-height: 46.88px;
+}
+
+/* main */
+div {
+    margin: 151px 32px 150px;
+}
+
+section {
+    width: 300px;
+    height: 529px;
+    display: inline-block;
+    background-color: #F3F3F3;
+    margin-right: 30px;
+}
+
+.tercera-section {
+    margin-right: -30px;
+}
+
+.portada-batman, .portada-harley {
+    position: relative;
+    width: 300px;
+    height: 193px;
+}
+
+.corazon-1 {
+    position: absolute;
+    width: 30px;
+    height: 26.25px;
+    left: 53px;
+    top: 306.88px;
+    z-index: 2px;
+}
+
+.corazon-2 {
+    position: absolute;
+    width: 30px;
+    height: 26.25px;
+    left: 383px;
+    top: 308.87px;
+    z-index: 2px;
+}
+
+.corazon-3 {
+    position: absolute;
+    width: 30px;
+    height: 26.25px;
+    left: 713px;
+    top: 309.87px;
+    z-index: 2px;
+}
+
+.foto-batman, .foto-harley {
+    position: relative;
+    border-radius: 50%;
+    left: 90px;
+    bottom: 70px;
+    z-index: 10;
+    width: 120px;
+    height: 118px;
+}
+
+.batman {
+    text-transform: uppercase;
+}
+
+.batman, .harley {
+    font-size: 30px;
+    line-height:35.16px;
+    text-align: center;
+    color:#000000;
+    margin-top: -53px;
+}
+
+.texto {
+    margin:10px 17px 37px 16px;
+    font-size: 16px;
+    line-height:18.75px;
+    color: #333333;
+    width: 267px;
+    height: 113px;
+}
+
+.ver-mas {
+    background-color: #00669F;
+    color: #F3F3F3;
+    font-size: 15px;
+    height: 48.52px;
+    line-height: 17.58px;
+    text-align: center;
+    padding: 15px 35.78px 15.52px 37px;
+    width: 128.78px;
+    margin-left: 85px;
+    margin: top 37px;
+}
+
+
+/* footer */
+footer {
+    background-color: #00669F;
+    color:#FFF9F9;
+    height: 51px;
+    padding: 16px 671px 16px 16px;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 18.75px;
+    }
+
