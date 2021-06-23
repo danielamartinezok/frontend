@@ -41,17 +41,20 @@ main {
 }
 
 .pet-shop {
-    background-color: rgb(230, 162, 243);
+    background-color: orange;
 }
 
 .cv-batman {
-background-color: sandybrown;
+    background-color: rgba(255, 255, 0, 0.781);
 }
 
 .cv-daniela {
     background-color: yellowgreen;
 }
 
+.clase-10 {
+    background-color: rgba(0, 0, 255, 0.582);
+}
 
 footer {
     background-color: lemonchiffon;
