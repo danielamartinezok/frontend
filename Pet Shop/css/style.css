@@ -1,96 +1,260 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
 body {
-    height: 1807px;
-    width: 1024px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+body a {
+    text-decoration: none;
+    color:white;
 }
 
-.barra-superior {
+
+/**************************************/
+/* header */
+header {
+    position: sticky;
+    top:0px;
+}
+header div:nth-child(1) {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #222222;
     color:#F3F3F3;
-    height: 90px;
+    height: 30px;
+    padding-left: 106px;
+    padding-right: 90px;
 }
-
-.barra-de-navegacion {
+header ul {
+    display: flex;
+    gap: 20px;
+}
+header div:nth-child(2) {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
     background-color: #F0A83E;
     color: #FFFFFF;
-    height: 115px;
-}
+    height: 62px;
+    padding-right: 40px;
+    padding-left: 40px;
 
-main {
-    height: 2000px;
 }
-
-.banner {
+header i {
+    font-size: 12px;
+}
+/**************************************/
+/* main */
+main section:nth-child(1) {
     background-image: url(../img/bowl-and-pet-daities-on-green-background.png);
-    height:409px;
-    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 409px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    row-gap: 12px;
 }
-
-h2 {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+main h2 {
     font-weight: 400px;
     font-size: 30px;
-    line-height: 35.16px;
     font-weight: normal;   
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 9px;
+    margin-left: 65%;
+    margin-top: 150px;
 }
-
-.comederos {
-    background-image:url(../img/rectangulo-comedero.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    color: white;
+.comederos-1 {
+    margin-left: 71%;
 }
-
-/* ¿Cómo hago para agrandar el tamaño del ícono? */
-.fas fa-paw {
-    width: 67px;
-    height: 71px;
+.comederos-2 {
+    margin-left: 80%;
+    background-color:#F0A83E;
+    color:white;
+    width: 141px;
+    height: 49px;
+    padding: 15px 23px 15px 23px;
+    margin-left: 73%;
+    border-radius: 5px;
 }
-
+main section:nth-child(2) {
+    text-align: center;
+    margin-top: 20px;
+}
 h1 {
+    color: #3C2313;
     font-weight: 700px;
     font-size: 40px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
-    line-height: 46.88px;
+    padding-top: 9px;
+    padding-bottom: 20px;
 }
-
-section .producto {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+main section span {
+    padding-left: 13px;
+    color: #666666;
+}
+.productos {
     font-weight: 500px;
     font-style: normal;
     font-size: 15px;
-    line-height: 17.58px;
+    padding: 49px 95px 78px 95px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+}
+main .productos div {
+    background-color:#FBFAF6;
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+}
+.articulo {
     color:#3C2313;
 }
-
-section .precio {
+.precio {
     color:#F0A83E;
 }
 
-.resetear {
-    background-image: url(../img/resetear.png);
-    background-repeat: no-repeat;
-    color:white;
+/**************************************/
+/* Formulario de contacto */
+.formulario-contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-
-.enviar{
-    background-image: url(../img/enviar.png);
-    background-repeat: no-repeat;
-    color:white;
+.formulario-contacto ::placeholder { color: #FFFFFF; }
+.formulario-contacto legend {
+    font-weight: bold;
+    font-size: 25px;
+    color: #3C2313;
+    padding-bottom: 20px;
 }
-
-
-.suscripcion {
-    color:#FFFFFF;
-    background-color: #F0A83E;
-
+.campos-form {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
 }
-
-footer {
-    background-color: #3C2313;
+.campos-form div input {
+    background-color:#3C2313;
+    border-radius: 15px;
+    width: 340px;
+    height: 40px;
+    padding-left: 14.11px;
+    border:none;
+}
+.botones {
+    display: flex;
+    padding-top: 41px;
+    gap:8px;
+}
+.formulario-contacto button{
+    border-radius: 15px;
+    width: 110px;
+    height: 34px;
+    border:none;
     color: #FFFFFF;
 }
+.formulario-contacto button:nth-child(1) {
+    background-color: #8A8787;
+}
+.formulario-contacto button:nth-child(2) {
+    background-color: #F0A83E;
+}
 
+/**************************************/
+/* Formulario de suscripción */
+.suscripcion {
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 23px;
+    padding-right: 47px;
+    height: 60px;
+    margin-top: 75px;
+}
+.suscripcion div {
+    display: flex;
+    gap: 10px;
+    color:#FFFFFF;
+}
+.formulario-suscripcion {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.suscripcion input {
+    color:#A0A0A0;
+    background: #FFFFFF;
+    width: 271px;
+    height: 40px;
+    padding-left:8px;
+}
+.suscripcion button {
+    color:#FFFFFF;
+    background-color: #3C2313;
+    width: 80px;
+    height: 34px;
+    font-size: 12px;
+}
+.formulario-suscripcion div input, button {
+    border-radius: 15px;
+    border: none;
+}
+
+/**************************************/
+/* footer */
+.footer {
+    background-color: #3C2313;
+    color: #FFFFFF;
+    height: 284px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+    padding-top: 5px;
+}
+.container {
+    display: flex;
+    gap: 25px;
+    padding-top:20px;
+}
+.footer div p:nth-child(1) {
+    font-weight: bold;
+    font-size: 20px;
+}
+.footer div p:nth-child(2) {
+    font-weight: bold;
+    font-size: 10px;
+    color: #8A8787;
+}
 .derechos {
     background-color:#222222;
+    text-align: center;
+    color:white;
+    height: 20px;
+}
+.logo-pie {
+    position: relative;
+    bottom: 128px;
+    left: 1000px;
+} 
+
+/* Para crear los íconos del footer */
+footer i {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    background-color: #8A8787;
+    border: 4px solid #786960;
+    font-size: 40px;
+    height: 66px;
+    width: 66px;
+    border-radius: 50%;
 }

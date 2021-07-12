@@ -1,68 +1,58 @@
-body {
-    width: 100%;
+* {
     box-sizing: content-box;
-    margin: 0;
+    margin: 0px;
+    padding:0px;
 }
-
-header {
-    /* background-image: url('../img/foto-encabezado.jpg'); */
-    background-color: #f1f1f1;
-    height: 325px;
-    text-align: center;
-    line-height: 10px;
-    padding: auto;
-}
-
-header p {
-    font-family: 'Dancing Script', cursive;
+body {
     font-family: 'Montserrat', sans-serif;
 }
 
+header {
+    background-color: #f1f1f1;
+    height: 325px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 header img {
     width: 200px;
     border-radius: 50%;
     border-inline-start-color: rgb(82, 161, 240);
     padding: 20px;
 }
-
-h1 {
-    font-family: 'Montserrat', sans-serif;
-}
-
 main {
-    font-size: 18px;
-    letter-spacing: 1.5px;
-    text-align: center;
-    padding: 100px;
-}
-
-.lemon-pie {
-    background-color: tomato;
-}
-
-.pet-shop {
-    background-color: orange;
-}
-
-.cv-batman {
-    background-color: rgba(255, 255, 0, 0.781);
-}
-
-.cv-daniela {
-    background-color: yellowgreen;
-}
-
-.clase-10 {
-    background-color: rgba(0, 0, 255, 0.582);
-}
-
-footer {
     background-color: lemonchiffon;
-    position:absolute;
-    font-size: 20px;
-    text-align: center;
-    height: 23px;
-    letter-spacing:0.12cm;
-    bottom:0;
-    width: 100%;
+}
+main img {
+    width: 200px;
+}
+main section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 100px 50px 100px;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+main section div a {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding-top: 15px;
+    gap: 10px;
+    background-color: gainsboro;
+    height: 200px;
+    width: 250px;
+    text-decoration: none;
+    color:brown;
+}
+footer {
+    background-color:peru;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    font-size: 30px;
 }

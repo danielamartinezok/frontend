@@ -1,8 +1,8 @@
 /* ============================== */
-
-head {
-    width: 1440px;
-    height: 1024px;
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
 
 /* ============================== */
@@ -15,7 +15,6 @@ body {
 /* Header */
 header {
     background-color: #E5E5E5;
-    width: 1440px;
     height: 189px;
     left: 0px;
     top: 0px;
@@ -42,12 +41,22 @@ h1 {
 /* ============================== */
 /* Main */
 
+main i {
+    position: relative;
+    left:30px;
+    bottom: 27px;
+    font-size: 40px;
+    text-decoration: none;
+    color:black;
+}
+
+
 /* 
 .volver {
     background-position: right top;
 }
  */
- 
+
 /* Características generales del main */
 section {
     font-family: 'Times New Roman';

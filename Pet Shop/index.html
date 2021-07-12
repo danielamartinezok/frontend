@@ -5,91 +5,131 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PetShop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-
 <body>
-
 <header> 
-<!-- Barra superior -->
-<section class="barra-superior">
-    <p>Grandes ofertas en comederos</p>
-    <p>Español</p>
-    <p>ARG$</p>
-</section>
-
-<!-- Barra de menú principal -->
-<nav class="barra-de-navegacion">
-<img class="imagen-barra-de-nav" src="img/Logo.png" alt="Acá está el logo de la empresa">
-    <ul type="none">
-        <li><img src="img/pawprint 1 BANNER.png">Categorías</li>
-        <li><img src="img/pawprint 2.png">Pets</li>
-        <li><img src="img/pawprint 3.png">Nosotros</li>
-        <li><img src="img/pawprint 4.png">Contactanos</li>
-    </ul>
-</nav>
+    <div>
+        <p>Grandes ofertas en comederos</p>
+        <ul type="none">
+            <li><a href>Español <i class="fas fa-chevron-down"></i></a></li>
+            <li><a href>ARG$ <i class="fas fa-chevron-down"></i></a></li>
+        </ul>
+    </div>
+    <div>
+        <a href><img src="img/Logo.png"></a>
+        <nav>
+            <ul type="none">
+                <li><a href><img src="img/pawprint 1 BANNER.png">Categorías</a></li>
+                <li><a href><img src="img/pawprint 2.png">Pets</a></li>
+                <li><a href><img src="img/pawprint 3.png">Nosotros</a></li>
+                <li><a href><img src="img/pawprint 4.png">Contactanos</a></li>
+            </ul>
+        </nav>
+    </div>
 </header>
 
 <main>
-<!-- Sección banner -->
-<section class="banner">
-    <h2>¡Es un placer tenerte aquí!</h2>
-    <p>¡Comederos en descuento!</p>
-    <p class="comederos">COMEDEROS</p>
-</section>
+    <section>
+        <h2>¡Es un placer tenerte aquí!</h2>
+        <p class="comederos-1">¡Comederos en descuento!</p>
+        <p class="comederos-2"><a href="">COMEDEROS</a></p>
+    </section>
+    <section>
+        <img src="img/pawprint 1.png">
+        <h1>Productos Destacados</h1>
+        <span>Comederos</span><span>-</span><span>Accesorios</span><span>-</span><span>Comida</span>
+    </section>
+    <section class="productos">
+        <div>
+            <img src="img/churrasquito.png">
+            <p class="articulo">Juguete Churrasquito</p>
+            <p class="precio">$150</p>
+        </div>
+        <div>
+            <img src="img/comedero.png">
+            <p class="articulo">Comedero para perro</p>
+            <p class="precio">$250</p>
+        </div>
+        <div>
+            <img src="img/Huesito.png">
+            <p class="articulo">Juguete Huesito</p>
+            <p class="precio">$650</p>
+        </div>
+    </section>
+    
+    <form action="" method="GET" class="formulario-contacto">
+        <legend>Contáctanos</legend>
+        <div class="campos-form">
+            <div>
+                <label for="usuario"></label>
+                <input type="text" id="usuario" name="usuario" placeholder="Nombre y Apellido" required>
+            </div>
+            <div>
+                <label for="email"></label>
+                <input type="email" id="email" name="email" placeholder="Ingresá tu correo electrónico" required>
+            </div>
+            <div>
+                <label for="telefono"></label>
+                <input type="tel" id="telefono" name="tel" placeholder="Teléfono" required>
+            </div>
+        </div>
+        <div class="botones">
+            <button type="reset">Resetear</button>
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
 
-
-<!-- Sección productos -->
-<i class="fas fa-paw"></i>
-<h1>Productos Destacados</h1>
-<span>Comederos - </span><span>Accesorios - </span><span>Comida</span>
-
-<section>
-    <img src="img/churrasquito.png" alt="Foto de tres churrascos">
-    <p class="producto">Juguete Churrasquito</p>
-    <p class="precio">$150</p>
-
-    <img src="img/comedero.png" alt="Foto de un comedero para perro">
-    <p>Comedero para perro</p>
-    <p class="precio">$250</p>
-
-    <img src="img/Huesito.png" alt="Foto de un huesito de juguete para perro">
-    <p>Juguete Huesito</p>
-    <p class="precio">$650</p>
-</section>
-
-<h3>Contáctanos</h3>
-<p>Nombre y Apellido</p>
-<p>Ingresá tu correo electrónico</p>
-<p>Teléfono</p>
-
-<span class="resetear">Resetear </span><span class="enviar"> Enviar</span>
-<img src="img/Group.png">
-
-<section class="suscripcion">
-    <p>Suscríbete para más novedades</p>
-    <p>Ingresa tu correo electrónico</p>
-    <p>Suscríbeme</p>
-</section>
+    <section class="suscripcion">
+        <div>
+            <i class="far fa-envelope"></i>
+            <p>Suscríbete para más novedades</p>
+        </div>
+        <form action="" method="GET" class="formulario-suscripcion">
+            <div>
+                <label for="email"></label>
+                <input type="email" id="email" name="email_usuario" placeholder="Ingresá tu correo electrónico" required>
+            </div>
+            <button type="submit">Suscribirme</button>
+        </form>
+    </section>
 </main>
 
-<!-- Contenido para el pie de página -->
 <footer>
-<section>
-    <img src="img/Localidad.png">
-    <p>Localidad</p>
-    <p>Calle - provincia</p>
-    <p>Teléfono</p>
-    <img src="img/Teléfono.png">
-    <p>Número de teléfono</p>
-    <img src="img/Correo electrónico.png">
-    <p>Correo Electrónico</p>
-    <p>Dirección de correo</p>
-    <img src="img/Logo para abajo.png">
-</section>
-    
+    <div class="footer">
+        <div class="container">
+            <i class="fas fa-map-marker-alt"></i>
+            <!-- <img src="img/Localidad.png"> -->
+            <div>
+                <p>Localidad</p>
+                <p>Calle - provincia</p>
+            </div>
+        </div>
+        <div class="container">
+            <i class="fas fa-phone-volume"></i>
+            <!-- <img src="img/Teléfono.png"> -->
+            <div>
+                <p>Teléfono</p>
+                <p>Número de teléfono</p>
+            </div>
+        </div>
+        <div class="container">
+            <i class="fas fa-at"></i>
+            <!-- <img src="img/Correo electrónico.png"> -->
+            <div>
+                <p>Correo Electrónico</p>
+                <p>Dirección de correo</p>
+            </div>
+        </div>
+        <div>
+            <a href><img class="logo-pie" src="img/Logo para abajo.png"></a>
+        </div>
+    </div>
     <p class="derechos">Todos los derechos reservados Front End</p>
 </footer>
 

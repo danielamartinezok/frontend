@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin:0px;
+    padding: 0px;
+}
+
+/********************************************************/
+/* header */
+header p {
+    background-color: #1CD1B0;
+    padding-left: 20px;
+    font-size: 15px;
+}
+header div {
+    background-color: #00669F;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+    gap: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+header a {
+    color: #FFFFFF;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+/********************************************************/
+/* main */
+main i {
+    position: relative;
+    left:30px;
+    top: 20px;
+    font-size: 40px;
+    text-decoration: none;
+    color:#00669F;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 230px;
+    padding-left: 410px;
+    padding-bottom: 294px;
+}
+main form h2 {
+    color: #333333;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+}
+.campos-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 55px;
+    padding-bottom: 59px;
+}
+.campos-form div input {
+    border: 1.53px solid rgba(0, 0, 0, 1);
+    width: 620px;
+    height: 60px;
+    padding-left: 26px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+}
+.campos-form div textarea {
+    width: 620px;
+    height: 251px;
+}
+::placeholder {color:black;}
+.boton {
+    display: flex;
+    gap: 20px;
+}
+form .boton button {
+    background-color: #1CD1B0;
+    border-radius: 23.011px;
+    width: 300px;
+    height: 53.79px;
+    border:none;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #000000;
+}
+.boton button:nth-child(1) {
+    background-color: #888888;
+    color:#FFFFFF;
+}
+
+/********************************************************/
+/* footer */
+footer p {
+    width: 1443px;
+    height: 61px;
+    color: #FFF9F9;
+    background-color: #00669F;
+    text-align: center;
+    padding-top:21px;
+    font-size: 16px;
+}
+header, footer {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+}
